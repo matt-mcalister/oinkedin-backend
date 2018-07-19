@@ -80,4 +80,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #socket config
+  config.web_socket_server_url = "wss://oinkedin-backend.herokuapp.com/cable"
+  config.action_cable.disable_request_forgery_protection = true
 end
