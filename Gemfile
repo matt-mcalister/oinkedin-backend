@@ -24,6 +24,7 @@ gem 'active_model_serializers', '~> 0.10.0'
 # gem 'capistrano-rails', group: :development
 
 
+gem 'dotenv-rails', groups: [:development, :test]
 
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
